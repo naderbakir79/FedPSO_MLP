@@ -1,10 +1,11 @@
-#  FedPSO-MLP: Federated Learning MLP using Particle Swarm Optimization
-In this work, we propose a hybrid protocol called FedPSO-MLP that combines particle swarm optimization algorithms with multilayer perceptron models to update the global model by collecting weights from learned models and to provide optimal solutions.<br><br>
-The experiments demonstrated that our proposed FedPSO- MLP outperformed the most famous Federated Averaging algorithm FedAvg, achieving an accuracy of 96%. Moreover, it showed an improvement in decreasing error by approximately 75%. <br><br>
+#  A Hybrid Aggregation Approach for Federated Learning to Improve Energy Consumption in Smart Buildings
+For this purpose, the study proposed the implementation of the federated learning framework, which is a hybrid model FedPSO-MLP consisting of an MLP combined with PSO that can demonstrate optimization of the MLP network architecture and improvement in the network communication performance by modifying the clarity and form of client’s data during transmission in servers.
+In addition, the experiments undertaken demonstrated that the proposed FedPSO-MLP outperformed the most popular Federated Averaging algorithm FedAvg, by resulting in a
+reduction of error by approximately 75%. The outperformance and higher flexibility of the FedPSO-MLP over FedAvg were comprehended based on the several model criteria discussed (RMSE, MAE, and MSE). Furthermore, the hybrid algorithm significantly reduced the communication cost and data used in the network communication as well as improved the global model accuracy by an average of 96% <br><br>
 
-<img src='./doc/imgs/Framework Architecture- showing the weight update process of FedPSO-MLP.png' title='Schematic diagram of the proposed FedPSO-MLP
+<img src='./doc/imgs/fedlmP.png' title='Schematic diagram of the proposed FedLM-PSO
 model' >
-<center>Schematic diagram of the proposed FedPSO-MLP model</center>
+<center>Schematic diagram of the proposed FedLM-PSO model</center>
 
 # Requirements
 Install all the packages from requirments.txt
